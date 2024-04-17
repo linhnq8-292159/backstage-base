@@ -3,6 +3,5 @@ kind: Location
 metadata:
   name: sample-location
 spec:
-  type: url
   targets:
     - ./group/**/*.yaml
