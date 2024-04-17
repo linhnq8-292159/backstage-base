@@ -1,8 +1,8 @@
-apiVerion: backstage.io/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: sample-location
 spec:
   type: url
   targets:
-    - ./group/service/*.yaml
+    - ./group/**/*.yaml
